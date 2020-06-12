@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-* h3 {
+* h2 {
   text-align: center;
 }
 
@@ -18,16 +18,14 @@ button {
   max-width: 900px;
   width: 800px;
   margin: auto;
-  border: 2px solid green;
-  background: #e2e719;
-  background: radial-gradient(circle, #e2e719 0%, #26b74a 40%);
+  background-color: #1D2329;
+  color: #FFFFFF;
 }
 
 .header {
   width: 100%;
-  height: 10em;
-  background-image: url("https://cdn.pixabay.com/photo/2020/06/10/13/08/virgin-in-the-green-5282638_1280.jpg");
   color: #FFFFFF;
+  background-color: #000000;
 }
 
 .header h1 {
@@ -42,6 +40,7 @@ button {
 
 .header nav ul {
   list-style-type: none;
+  background-color: #454545;
 }
 
 .header nav ul li {
@@ -63,14 +62,23 @@ button {
 }
 
 #container .content {
-  width: 48%;
+  width: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 2%;
+  background-color: #181818;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+#container .content .pic {
+  width: 35%;
+  height: auto;
 }
 
 #container .content div {
-  width: 50%;
+  width: 63%;
   margin: 1%;
 }
 
@@ -82,5 +90,11 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+footer {
+  height: 5em;
+  background-color: #181818;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */

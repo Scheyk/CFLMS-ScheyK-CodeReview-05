@@ -8,7 +8,7 @@ $(document).ready(function()
     {
         document.getElementById("container").innerHTML += 
                     `<div id="${i}" class="content">
-                        <div>
+                        <div class="pic">
                             <img src="${movie[i].img}" alt="Banner">
                         </div>
                         <div>
