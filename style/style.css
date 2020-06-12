@@ -8,10 +8,12 @@
 
 * h2 {
   text-align: center;
+  margin: 0;
 }
 
 button {
   width: 4em;
+  height: 4em;
 }
 
 .wrapper {
@@ -77,6 +79,10 @@ button {
   height: auto;
 }
 
+#container .content .pic img {
+  border: 0.3px solid #FFFFFF;
+}
+
 #container .content div {
   width: 63%;
   margin: 1%;
@@ -90,6 +96,11 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: auto;
+}
+
+#container .content div .likeOutput .output {
+  margin: auto;
 }
 
 footer {

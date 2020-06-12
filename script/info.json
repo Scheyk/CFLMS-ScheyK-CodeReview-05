@@ -3,35 +3,41 @@
     "titel": "Ein Mann von Welt",
     "img": "img/einMann.jpg",
     "info": "Zwölf lange Jahre hat der Mörder Ulrik im Gefängnis verbracht, nun ist er frei. Er will sich an Kenny, der ihn damals verraten hat, rächen.",
-    "like": "img/like.png"
+    "like": "img/like.png",
+    "output": 0
 },
 {
     "titel": "God Bless America",
     "img": "img/godBless.jpg",
     "info": "Als bei Frank ein Tumor im Kopf festgestellt wird und er nicht mehr lange zu leben hat, will er seinem Leben zunächst selber ein Ende setzen.",
-    "like": "img/like.png"
+    "like": "img/like.png",
+    "output": 0
 },
 {
     "titel": "In China essen sie Hunde",
     "img": "img/inChina.jpg",
     "info": "Bis zum heutigen Tag war Arvid mit seinem Leben eigentlich zufrieden. Ein Klischee trifft auf Arvid jedoch absolut zu, nämlich das, dass Bankangestellte langweilig sein sollen.",
-    "like": "img/like.png"
+    "like": "img/like.png",
+    "output": 0
 },
 {
     "titel": "Pulp Fiction",
     "img": "img/pulpFiction.jpg",
-    "info": "Das Kleinkriminellenpärchen Pumpkin und Honey Bunny überfällt einen Diner in L.A und gerät dabei an den Auftragkiller Jules.",
-    "like": "img/like.png"
+    "info": "Das Kleinkriminellenpärchen Pumpkin und Honey Bunny überfällt einen Diner in L.A und gerät dabei an den Auftragkiller Jules.Vincent Vega wird bei einem Auftrag für seinen...",
+    "like": "img/like.png",
+    "output": 0
 },
 {
     "titel": "R.E.D. älter.härter.besser.",
     "img": "img/red.jpg",
     "info": "Frank Moses langweilt sein Ruhestand fürchterlich. Der Rentner sehnt sich nach Abwechslung.",
-    "like": "img/like.png"
+    "like": "img/like.png",
+    "output": 0
 },
 {
     "titel": "Thank you for smoking!",
     "img": "img/thankYou.jpg",
     "info": "Eine neue Herausforderung wartet auf Nick Naylor, den PR-Profi der amerikanischen Tabaklobby.",
-    "like": "img/like.png"
+    "like": "img/like.png",
+    "output": 0
 }]`;
