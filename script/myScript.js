@@ -1,8 +1,7 @@
 $(document).ready(function()
 {
     let movie = JSON.parse(info);
-    console.log(movie);
-    var count = 0;    
+    console.log(movie);        
 
     for (let i = 0; i < movie.length; i++)
     {
@@ -13,39 +12,22 @@ $(document).ready(function()
                         </div>
                         <div>
                             <h4>${movie[i].titel}</h4>
-                            <p>${movie[i].info}</p>
+                            <p>${movie[i].description}</p>
                             <div class="likeOutput">
-                                <button id="${i}" class="button"><img src="${movie[i].like}"></button>
-                                <h2 id="${i}" class="output"></h2>
+                                <button><img src="${movie[i].like}"></button>
+                                <h2 class="output">${movie[i].output}</h2>
                             </div>
                         </div>
-                    </div>`;                   
+                    </div>`;                                       
                     
-    } 
-
+    }     
+        
+    
     $("button").on("click", function()
     {
-        $("h2#").text(count += 1);
-    });
-   
-   /* $("button"+this.id).click(function()
-    {
-        let count = 0;
-        let selector = $("#"+this.id).find("#out");
-    });*/
-
-   /* $("button").click(function() { 
-        var t = $(this).attr('id'); 
-        $('h2#').text(count +=1); 
-    });*/       
+        let count = "div"+[this.id].output;
+        $("#"+this.id).text(count += 1);        
+    });    
     
-   /* $("button").on("click", function()
-    {   
-        let selector= $("#"+this.id).find("h2"+this.id);        
-        
-        let out = movie[this.id].like;
-        selector.append("Hobby: " + hobby +"<br>");
-    }
-    ); */    
 
 });

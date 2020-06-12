@@ -1,43 +1,49 @@
- let info = 
+ const info = 
  `[{
+    "id": 1,
     "titel": "Ein Mann von Welt",
     "img": "img/einMann.jpg",
-    "info": "Zwölf lange Jahre hat der Mörder Ulrik im Gefängnis verbracht, nun ist er frei. Er will sich an Kenny, der ihn damals verraten hat, rächen.",
+    "description": "Zwölf lange Jahre hat der Mörder Ulrik im Gefängnis verbracht, nun ist er frei. Er will sich an Kenny, der ihn damals verraten hat, rächen.",
     "like": "img/like.png",
     "output": 0
 },
 {
+    "id": 2,
     "titel": "God Bless America",
     "img": "img/godBless.jpg",
-    "info": "Als bei Frank ein Tumor im Kopf festgestellt wird und er nicht mehr lange zu leben hat, will er seinem Leben zunächst selber ein Ende setzen.",
+    "description": "Als bei Frank ein Tumor im Kopf festgestellt wird und er nicht mehr lange zu leben hat, will er seinem Leben zunächst selber ein Ende setzen.",
     "like": "img/like.png",
     "output": 0
 },
 {
+    "id": 3,
     "titel": "In China essen sie Hunde",
     "img": "img/inChina.jpg",
-    "info": "Bis zum heutigen Tag war Arvid mit seinem Leben eigentlich zufrieden. Ein Klischee trifft auf Arvid jedoch absolut zu, nämlich das, dass Bankangestellte langweilig sein sollen.",
+    "description": "Bis zum heutigen Tag war Arvid mit seinem Leben eigentlich zufrieden. Ein Klischee trifft auf Arvid jedoch absolut zu, nämlich das, dass Bankangestellte langweilig sein sollen.",
     "like": "img/like.png",
     "output": 0
 },
 {
+    "id": 4,
     "titel": "Pulp Fiction",
     "img": "img/pulpFiction.jpg",
-    "info": "Das Kleinkriminellenpärchen Pumpkin und Honey Bunny überfällt einen Diner in L.A und gerät dabei an den Auftragkiller Jules.Vincent Vega wird bei einem Auftrag für seinen...",
+    "description": "Das Kleinkriminellenpärchen Pumpkin und Honey Bunny überfällt einen Diner in L.A und gerät dabei an den Auftragkiller Jules.Vincent Vega wird bei einem Auftrag für seinen...",
     "like": "img/like.png",
     "output": 0
 },
 {
+    "id": 5,
     "titel": "R.E.D. älter.härter.besser.",
     "img": "img/red.jpg",
-    "info": "Frank Moses langweilt sein Ruhestand fürchterlich. Der Rentner sehnt sich nach Abwechslung.",
+    "description": "Frank Moses langweilt sein Ruhestand fürchterlich. Der Rentner sehnt sich nach Abwechslung.",
     "like": "img/like.png",
     "output": 0
 },
 {
+    "id": 6,
     "titel": "Thank you for smoking!",
     "img": "img/thankYou.jpg",
-    "info": "Eine neue Herausforderung wartet auf Nick Naylor, den PR-Profi der amerikanischen Tabaklobby.",
+    "description": "Eine neue Herausforderung wartet auf Nick Naylor, den PR-Profi der amerikanischen Tabaklobby.",
     "like": "img/like.png",
     "output": 0
 }]`;
