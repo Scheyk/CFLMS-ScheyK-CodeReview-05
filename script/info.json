@@ -1,30 +1,37 @@
-[{
+ let info = 
+ `[{
     "titel": "Ein Mann von Welt",
     "img": "img/einMann.jpg",
-    "info": "Zwölf lange Jahre hat der Mörder Ulrik im Gefängnis verbracht, nun ist er frei. Er will sich an Kenny, der ihn damals verraten hat, rächen. Jetzt muss nur noch eine Pistole her. Ulrik macht es sich im Kellergewölbe seiner Schwester Margrethe, einer hässlichen Prostituierten, gemütlich. Doch als der Rachsüchtige einen anständigen Mechaniker-Job findet und über seine baldige Großvaterschaft informiert wird, zieht er seine Vergeltungspläne in Zweifel."
+    "info": "Zwölf lange Jahre hat der Mörder Ulrik im Gefängnis verbracht, nun ist er frei. Er will sich an Kenny, der ihn damals verraten hat, rächen. Jetzt muss nur noch eine Pistole her. Ulrik macht es sich im Kellergewölbe seiner Schwester Margrethe, einer hässlichen Prostituierten, gemütlich. Doch als der Rachsüchtige einen anständigen Mechaniker-Job findet und über seine baldige Großvaterschaft informiert wird, zieht er seine Vergeltungspläne in Zweifel.",
+    "like": "img/like.png"
 },
 {
     "titel": "God Bless America",
     "img": "img/godBless.jpg",
-    "info": "Als bei Frank ein Tumor im Kopf festgestellt wird und er nicht mehr lange zu leben hat, will er seinem Leben zunächst selber ein Ende setzen. Doch angesichts der Volksverdummung via Fernsehen überlegt er es sich anders und startet einen blutigen Feldzug gegen jeden, der es in seinen Augen verdient hat zu sterben. Unterstützung erhält er dabei von der jungen Roxy."
+    "info": "Als bei Frank ein Tumor im Kopf festgestellt wird und er nicht mehr lange zu leben hat, will er seinem Leben zunächst selber ein Ende setzen. Doch angesichts der Volksverdummung via Fernsehen überlegt er es sich anders und startet einen blutigen Feldzug gegen jeden, der es in seinen Augen verdient hat zu sterben. Unterstützung erhält er dabei von der jungen Roxy.",
+    "like": "img/like.png"
 },
 {
     "titel": "In China essen sie Hunde",
     "img": "img/inChina.jpg",
-    "info": "Bis zum heutigen Tag war Arvid mit seinem Leben eigentlich zufrieden. Ein Klischee trifft auf Arvid jedoch absolut zu, nämlich das, dass Bankangestellte langweilig sein sollen. Aus diesem Grund will seine Frau Hanne sich von ihm trennen. Er jedoch geht zur Arbeit, wo er zum gefeierten Held des Tages wird, indem er einen Bankraub verhindert. Und dann schießt auch noch eine zweite Frau in sein Leben: Es ist die Frau des Bankräubers, die Arvid vorwirft, ihr Leben zerstört zu haben."
+    "info": "Bis zum heutigen Tag war Arvid mit seinem Leben eigentlich zufrieden. Ein Klischee trifft auf Arvid jedoch absolut zu, nämlich das, dass Bankangestellte langweilig sein sollen. Aus diesem Grund will seine Frau Hanne sich von ihm trennen. Er jedoch geht zur Arbeit, wo er zum gefeierten Held des Tages wird, indem er einen Bankraub verhindert. Und dann schießt auch noch eine zweite Frau in sein Leben: Es ist die Frau des Bankräubers, die Arvid vorwirft, ihr Leben zerstört zu haben.",
+    "like": "img/like.png"
 },
 {
     "titel": "Pulp Fiction",
     "img": "img/pulpFiction.jpg",
-    "info": "Das Kleinkriminellenpärchen Pumpkin und Honey Bunny überfällt einen Diner in L.A und gerät dabei an den Auftragkiller Jules. Dieser und sein Partner Vincent Vega werden bei einem Auftrag für ihren Boss Marcellus Wallace mit der Beseitigung einer ungeplanten Leiche konfrontiert. Wallace wiederum hat eine Rechnung zu begleichen mit dem Boxer Butch, der ihn übers Ohr hauen will, und Vincent hat ein folgenreiches Date mit Wallace' Frau. Innerhalb von 24 Stunden kreuzen sich die Wege der Gangster."
+    "info": "Das Kleinkriminellenpärchen Pumpkin und Honey Bunny überfällt einen Diner in L.A und gerät dabei an den Auftragkiller Jules. Dieser und sein Partner Vincent Vega werden bei einem Auftrag für ihren Boss Marcellus Wallace mit der Beseitigung einer ungeplanten Leiche konfrontiert. Wallace wiederum hat eine Rechnung zu begleichen mit dem Boxer Butch, der ihn übers Ohr hauen will, und Vincent hat ein folgenreiches Date mit Wallace' Frau. Innerhalb von 24 Stunden kreuzen sich die Wege der Gangster.",
+    "like": "img/like.png"
 },
 {
     "titel": "R.E.D. älter.härter.besser.",
     "img": "img/red.jpg",
-    "info": "Frank Moses langweilt sein Ruhestand fürchterlich. Der Rentner sehnt sich nach Abwechslung, nach einer Aufgabe und nach einem gelegentlichen Auftragsmord, denn Frank arbeitete vor seinem Ruhestand als CIA-Agent. Nun hat sein ehemaliger Auftraggeber entschieden, dass Frank und andere CIA-Rentner mit ihrem Insider-Wissen eine Gefahr darstellen und ausgeschaltet werden müssen. Doch dass lassen sich die Alt-Agenten nicht gefallen und decken stattdessen eine Verschwörung auf."
+    "info": "Frank Moses langweilt sein Ruhestand fürchterlich. Der Rentner sehnt sich nach Abwechslung, nach einer Aufgabe und nach einem gelegentlichen Auftragsmord, denn Frank arbeitete vor seinem Ruhestand als CIA-Agent. Nun hat sein ehemaliger Auftraggeber entschieden, dass Frank und andere CIA-Rentner mit ihrem Insider-Wissen eine Gefahr darstellen und ausgeschaltet werden müssen. Doch dass lassen sich die Alt-Agenten nicht gefallen und decken stattdessen eine Verschwörung auf.",
+    "like": "img/like.png"
 },
 {
     "titel": "Thank you for smoking!",
     "img": "img/thankYou.jpg",
-    "info": "Zwölf lange Jahre hat der Mörder Ulrik im Gefängnis verbracht"
-}]
+    "info": "Eine neue Herausforderung wartet auf Nick Naylor, den PR-Profi der amerikanischen Tabaklobby. Bei Jeff Megall, einem von Hollywoods Top-Agenten, setzt er sich dafür ein, dass auf der Leinwand wieder ordentlich gequalmt wird - so wie in den guten alten Zeiten. Außerdem muss er noch beim todkranken Marlboro-Mann vorstellig werden, um diesen mit einer satten Schmiergeldzahlung davon abzubringen, weiterhin gegen das Rauchen mobil zu machen.",
+    "like": "img/like.png"
+}]`;
