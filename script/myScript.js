@@ -1,33 +1,41 @@
 $(document).ready(function()
 {
     let movie = JSON.parse(info);
-    console.log(movie);        
+    let count = 0;    
+           
 
     for (let i = 0; i < movie.length; i++)
     {
-        document.getElementById("container").innerHTML += 
-                    `<div id="${i}" class="content">
+       document.getElementById("container").innerHTML += 
+                    `<div  class="content">
                         <div class="pic">
                             <img src="${movie[i].img}" alt="Banner">
                         </div>
                         <div>
                             <h4>${movie[i].titel}</h4>
                             <p>${movie[i].description}</p>
-                            <div class="likeOutput">
-                                <button><img src="${movie[i].like}"></button>
-                                <h2 class="output">${movie[i].output}</h2>
+                            <div id="likeOutput_${i}" class="likeOutput">
+                            <button id="button_${i}" class="button"><img src="${movie[i].like}"></button>
+                            <h2 id="output_${i}" class="output"></h2>                                
                             </div>
                         </div>
                     </div>`;                                       
                     
     }     
-        
     
-    $("button").on("click", function()
+    for (let i = 0; i < movie.length; i++)
     {
-        let count = "div"+[this.id].output;
-        $("#"+this.id).text(count += 1);        
-    });    
+
+        let button = $(`#button_${i}`)
+        let out = $(`#output_${i}`)
+
+        $(button).on("click", function()
+        {           
+            $(out).text(count +=1);
+        });
+           
+    }    
+  
     
 
 });
